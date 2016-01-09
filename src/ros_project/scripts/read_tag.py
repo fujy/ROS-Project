@@ -124,7 +124,9 @@ class ReadTagState(MonitorState):
                 pose = Pose(Point(x_location, y_location, 0.0), quaternion)
                 userdata.waypoints.append(pose)
                 RVizUtils.get_instance().init_secondary_waypoint_markers(pose)
-                SoundUtils.get_instance().say_message("New Tag" + marker.id + "is registered")
+                sound_message = "New Tag " + str(marker.id) + " is registered"
+                rospy.loginfo(sound_message)
+                SoundUtils.get_instance().say_message("New Tag " + str(marker.id) + " is registered")
                 # rospy.loginfo("length of goal points: %f", len(userdata.waypoints))
         
         except:

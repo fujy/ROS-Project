@@ -72,7 +72,7 @@ class FaceRecognitionState(State):
     def _goal_feedback_cb(self, feedback): 
         """Goal Feedback Callback""" 
         if(len(feedback.names) > 0):        
-            SoundUtils.get_instance().say_message(feedback.names[0] + "is recognized")
+            SoundUtils.get_instance().say_message(feedback.names[0] + " is recognized")
 
 
     def _goal_done_cb(self, result_state, result): 

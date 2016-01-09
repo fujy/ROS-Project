@@ -51,7 +51,7 @@ class SoundUtils():
             diff_in_sec = (now - last_time_said).to_sec()
             if diff_in_sec < self.time_delay_in_sec:
                 return
-        print ("insertd")
+        rospy.loginfo(message)
         self.previous_messages[message] = now
         self.message_queue.put(message)
 
