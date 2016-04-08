@@ -10,7 +10,7 @@ The following tasks were implemented:
 - Face Recognition based on Eigenface method using [ROS face recognition](https://github.com/procrob/face_recognition)
 - Initial pose estimation using visual landmarks
 - AR-Tag detection and localization
-- All task were realized alongside using [SMACH framework](http://wiki.ros.org/smach) for concurrency
+- All tasks were realized alongside using [SMACH framework](http://wiki.ros.org/smach) for concurrency
 
 ## Demo
 
