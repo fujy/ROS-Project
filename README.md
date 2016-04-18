@@ -16,8 +16,22 @@ The following tasks were implemented:
 
 Video demos can be found on Youtube:
 
--  [Demo1](https://youtu.be/3VN96tyYq-k)
--  [Demo2](https://youtu.be/chfMmpUmcWE)
+- Demo 1
+
+<p align="center">
+<a href="https://youtu.be/3VN96tyYq-k" target="_self"> 
+   <img src="https://github.com/fujy/ROS-Project/blob/master/src/img/thumbnail1.jpg" alt="https://youtu.be/3VN96tyYq-k" border="0"/> 
+</a>
+</p>
+
+
+- Demo 2
+
+<p align="center">
+<a href="https://youtu.be/chfMmpUmcWE" target="_self"> 
+   <img src="https://github.com/fujy/ROS-Project/blob/master/src/img/thumbnail2.jpg" alt="https://youtu.be/chfMmpUmcWE" border="0"/> 
+</a>
+</p>
 
 ## License
 
